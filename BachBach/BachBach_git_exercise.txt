@@ -1,12 +1,13 @@
 Git commands:
-git clone
-git brand
-git checkout master
-git status
-git log
-git add
-git remove
-git init
-git fetch
-git pull
-git merge
+
+git clone [link]
+
+git branch Session1_bachBach
+
+git checkout Session1_bachBach
+
+git add BachBach_git_exercise1.txt
+
+git commit -m "git exercies"
+
+git push origin Session1_bachBach
