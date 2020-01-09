@@ -7,4 +7,5 @@ Question 2: What is the three states of Git ? list them.
 2. git add file fro working space to staging, then commit that file to local repo. After then, git push file to remote repo.
 
 Question 3: What command "git stash" does ? when to use this command ?
+==> Sorry. I do not know the answer :)))
 
