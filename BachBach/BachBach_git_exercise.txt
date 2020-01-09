@@ -1,0 +1,12 @@
+Git commands:
+git clone
+git brand
+git checkout master
+git status
+git log
+git add
+git remove
+git init
+git fetch
+git pull
+git merge
