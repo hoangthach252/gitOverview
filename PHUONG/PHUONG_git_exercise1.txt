@@ -1,0 +1,21 @@
+git clone [link]
+
+git branch Session1_Phuong
+
+git checkout Session1_Phuong
+
+mkdir Phuong
+
+git status
+
+git add PHUONG_git_exercise1
+
+
+git commit -m "This is the very first commit of Phuong on git Journey"
+
+git push origin Session1_Phuong
+
+
+
+
+
