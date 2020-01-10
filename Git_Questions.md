@@ -1,8 +1,8 @@
 Question 1: What is the difference between git pull and git fetch?
-==> answer the question here .....
+==> Sorry. The teacher does not know the answer :)))
 
 Question 2: What is the three states of Git ? list them.
-==> answer the question here .....
+==> Sorry. The teacher does not know the answer :)))
 
 Question 3: What command "git stash" does ? when to use this command ?
-==> answer the question here .....
+==> Sorry. The teacher does not know the answer :)))
