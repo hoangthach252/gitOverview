@@ -7,4 +7,3 @@ Question 2: What is the three states of Git ? list them.
 Question 3: What command "git stash" does ? when to use this command ?
 ==>  "git stash" help to record the uncommit changes. Using when you want to the changes in the current branch are still saved before you switch and work on another branch.
 
-
