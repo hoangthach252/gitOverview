@@ -1,0 +1,16 @@
+===================== API Overview=======================
+Create a Postman Collection for this session which contains below requests:
+1. Get user's public profile of the user : chrisjoelcampbell
+2. Add some photos into like collection on UI and then get list your liked photos
+3. Create a new collection
+4. Get your collection
+
+export this collection and submit into Github, under your directory.
+
+
+Documentation: 
+https://unsplash.com/documentation#creating-a-developer-account
+https://www.getpostman.com/downloads/
+
+Note:
+Remember Creating a developer account for API testing : https://unsplash.com/oauth/applications
