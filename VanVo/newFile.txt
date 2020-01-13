@@ -1,0 +1,10 @@
+git clone https://github.com/hoangthach252/gitOverview.git
+git branch  Session1_VanVo
+git checkout Session1_VanVo
+mkdir VanVo
+cd VanVo
+vim Newfile.txt
+git add Newfile.txt
+git commit -m "Git command"
+git push origin Session1_VanVo
+
