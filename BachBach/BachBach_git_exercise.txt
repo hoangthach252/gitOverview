@@ -1,0 +1,13 @@
+Git commands:
+
+git clone [link]
+
+git branch Session1_bachBach
+
+git checkout Session1_bachBach
+
+git add BachBach_git_exercise1.txt
+
+git commit -m "git exercies"
+
+git push origin Session1_bachBach
