@@ -1,4 +1,7 @@
 Question 1: What is the difference between git pull and git fetch?
+Session1_thuPhaHoai
+Git pull automatically merges any pulled commits into the branch you are currently working in
+Git fetch only copies the latest data and stores in your local repository
 Phuong Vo:
 			git pull: downloads the changes and merges them into your current branch
 			git fetch: just "downloads" the changes from the remote to your local repository
@@ -15,5 +18,5 @@ Phuong Vo: 	Using git stash to store the changes but not committed yet, then you
 			After that you can back to working brach, then apply the changes and commit it later on.
 Van Vo
 ==> Sorry. I do not know the answer :)))
-
-
+Session1_thuPhaHoai
+Git stash temporarily saves and stores your uncommitted code for later use. Use this when you need to work on different branch.
