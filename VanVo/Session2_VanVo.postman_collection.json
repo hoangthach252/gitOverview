@@ -1,0 +1,215 @@
+{
+	"info": {
+		"_postman_id": "a8f6384e-dee7-4866-8576-7a306195ab25",
+		"name": "Session2_VanVo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get user's public profile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "89cee2878a1ece101980bc9a662f9cc01d2ba7a3d23b6f96b75a89e175498243",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/users/chrisjoelcampbell",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"users",
+						"chrisjoelcampbell"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authentication",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://unsplash.com/oauth/token?client_id=7c45614fd67aa8bc42609ef0943bcb76d10d497895c09c000aadfe0a6d2ea2fa&client_secret=306767eaf5b37288a9938a7866d305ec0fd22e45e8b7f4b2650e168611dd129d&redirect_uri=urn:ietf:wg:oauth:2.0:oob&code=8292ae4dae378328be50d12af7c11507fb0a9038b6ace9550f3f9bb069b2ea17&grant_type=authorization_code",
+					"protocol": "https",
+					"host": [
+						"unsplash",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "7c45614fd67aa8bc42609ef0943bcb76d10d497895c09c000aadfe0a6d2ea2fa"
+						},
+						{
+							"key": "client_secret",
+							"value": "306767eaf5b37288a9938a7866d305ec0fd22e45e8b7f4b2650e168611dd129d"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "urn:ietf:wg:oauth:2.0:oob"
+						},
+						{
+							"key": "code",
+							"value": "8292ae4dae378328be50d12af7c11507fb0a9038b6ace9550f3f9bb069b2ea17"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get List Liked photo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "89cee2878a1ece101980bc9a662f9cc01d2ba7a3d23b6f96b75a89e175498243",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/photos?username=vhmvan&page=1&per_page=10&order_by=latest",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"photos"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "vhmvan"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "10"
+						},
+						{
+							"key": "order_by",
+							"value": "latest"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Collection",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "89cee2878a1ece101980bc9a662f9cc01d2ba7a3d23b6f96b75a89e175498243",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/collections?title=VanVoCollection&description=VanVoCollectionDescription&private=false",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"collections"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "VanVoCollection"
+						},
+						{
+							"key": "description",
+							"value": "VanVoCollectionDescription"
+						},
+						{
+							"key": "private",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Collection",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "89cee2878a1ece101980bc9a662f9cc01d2ba7a3d23b6f96b75a89e175498243",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/users/vhmvan/collections?page=1&per_page=10",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"users",
+						"vhmvan",
+						"collections"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
